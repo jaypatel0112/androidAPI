@@ -18,6 +18,7 @@ import kotlin.random.Random
 class MainActivity : AppCompatActivity() {
     private var pokemonImageURL = ""
     private var pokemonName = ""
+    private var weight = 0
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -39,6 +40,8 @@ class MainActivity : AppCompatActivity() {
                 try {
                     pokemonImageURL = json.jsonObject.getJSONObject("sprites").getString("front_default")
                     Log.d("Pokemon Image URL", pokemonImageURL)
+                    weight = json.jsonObject.getInt("weight")
+                    Log.d("Pokemon Weight", weight.toString())
                     // Extracting the Pokemon name
                     pokemonName = json.jsonObject.getJSONObject("species").getString("name")
                     Log.d("Pokemon Name", pokemonName)
@@ -66,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 .fitCenter()
                 .into(imageView)
 
-            textView.text = "Pokemon Name: $pokemonName"
+            textView.text = "Pokemon Name: $pokemonName and Weight: $weight"
         }
     }
 }
