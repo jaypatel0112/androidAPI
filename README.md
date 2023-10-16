@@ -42,7 +42,7 @@ My chosen API for this project is **https://pokeapi.co/api/v2/pokemon**.
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/jaypatel0112/androidAPI/blob/main/Project5_OWNApi.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **ScreenToGif**
 
@@ -53,7 +53,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+This was one of the toughest class in this module so far. Had lot of fun searching and learning new things.
 
 ## License
 
