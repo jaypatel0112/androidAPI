@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OwnAPI</string>
+    <string name="pokemonImage">Pokemon Image Description</string>
 </resources>
