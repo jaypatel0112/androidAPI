@@ -1,18 +1,16 @@
-# androidAPI
-
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: **Jay Patel**
 
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Summary
 
-**OwnAPI** is an android app that **This app displays the name and the image of the pokemon character and changes randomly as you click the button**
+**Pokemon Api** is an android app that **gives the detail of the pokemon image, name and weight.**
 
-If I had to describe this project in three (3) emojis, they would be: **1. Tough. 2. Mad 3. Happy**
+If I had to describe this project in three (3) emojis, they would be: **1. Sweat 2. Heat 3. Happy**
 
 ## Application Features
 
@@ -21,28 +19,24 @@ If I had to describe this project in three (3) emojis, they would be: **1. Tough
 The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [ ] Add a query to the API request
-  - The query I added is **FILL IN HERE**
-- [ ] Build a UI to allow users to add that query
+- [ ] Add a UI element for the user to interact with API further
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve the app!
 
-## API Choice
-
-My chosen API for this project is **https://pokeapi.co/api/v2/pokemon**.
-
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/jaypatel0112/androidAPI/blob/main/Project5_OWNApi.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **ScreenToGif**
 
@@ -53,7 +47,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-This was one of the toughest class in this module so far. Had lot of fun searching and learning new things.
+Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 
 ## License
 
